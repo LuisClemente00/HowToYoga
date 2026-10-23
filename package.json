@@ -1,0 +1,32 @@
+{
+  "name": "howtoyoga",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Plataforma educativa de apoyo para estudiantes de formación de profesores de yoga.",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "vue-tsc -b",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "validate:content": "node scripts/validate-curriculum.mjs",
+    "validate:store": "node scripts/validate-store.mjs"
+  },
+  "dependencies": {
+    "pinia": "^4.1.0",
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.19.2",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "@vue/tsconfig": "^0.9.1",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.3",
+    "vite": "^8.3.4",
+    "vue-tsc": "^3.3.13"
+  }
+}
